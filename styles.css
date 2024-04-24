@@ -129,13 +129,13 @@ body{
   border: 15px solid #444444;
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
 }
-profile-photo .img{
+.profile-photo .img{
   height: 100%;
   width: 100%;
   transition: 0.5s;
 }
 .FirstElement .profile-photo img:hover{
-  transform: scale(1.2);
+  transform: scale(2);
 }
 .profile-text{
   max-width: 750px;
@@ -251,7 +251,7 @@ profile-photo .img{
 .education-content .row .experience
 {
   color: #e5e5e5;
-  flex:0 0 50%;
+  flex: 0 0 90%;
   max-width: 50%;
   margin-top: 30px;
 } 
